@@ -1,145 +1,145 @@
-# Frontend Guidelines Questionnaire
-A one-page questionnaire to help your team establish effective frontend guidelines, so that you can write consistent & cohesive code together.
+# Cuestionario de Directrices de Maquetación
+Un cuestionario rápido para ayudar a tu equipo a establecer unas pautas eficaces, de manera que podáis escribir un código consistente y cohesionado juntos.
 
 ## HTML
-### HTML Principles
-- **What are some general principles your team should follow when writing HTML?** *(for example, authoring semantic HTML5 markup, accessibility, etc. See [these](http://www.yellowshoe.com.au/standards/#html) [resources](http://codeguide.co/#html) for [inspiration](http://manuals.gravitydept.com/code/html))*
+### Principios HTML
+- **¿Cuáles son los principios generales que tu equipo debe seguir al escribir HTML?** *(por ejemplo, marcado semántico HTML5, accesibilidad, etc. Mira [estos](http://www.yellowshoe.com.au/standards/#html) [recursos](http://codeguide.co/#html) para [inspirarte](http://manuals.gravitydept.com/code/html))*
 
+### Herramientas HTML
+- **¿Utilizáis un preprocesador HTML** *(como [HAML](http://haml.info/), [Jade](http://jade-lang.com/), etc)*?
+- **¿Utilizáis un sistema de plantillas** *(como [Mustache](https://mustache.github.io/), [Handlebars](http://handlebarsjs.com/), etc)*?
+- **¿La arquitectura del backend influye en la maquetación del frontend de alguna manera** (por ejemplo, WordPress agregará `wp-paginate` a una clase en tu maquetación)? Si es así, ¿puedes destacar estas convenciones?
 
-### HTML Tools
-- **Are you using an HTML preprocessor** *(such as [HAML](http://haml.info/), [Jade](http://jade-lang.com/), etc)*?
-- **Are you using a templating engine** *(such as [Mustache](https://mustache.github.io/), [Handlebars](http://handlebarsjs.com/), etc)*?
-- **Does your backend architecture influence the frontend markup in any way** (for example, WordPress will add `wp-paginate` to a class in your markup)? If so, can you highlight these conventions? 
-
-### HTML Style
-- **Spaces or Tabs?**
-- **What does HTML commenting look like?** 
+### Estilo HTML
+- **¿Espacios o Tabuladores?**
+- **¿Qué apariencia tienen los comentarios HTML?** 
 
 ---------------
 
 ## CSS 
 
-### CSS Principles
-- **What are some general principles your team should follow when writing CSS?** *(For example, modularity, avoiding long selector strings, etc. See [these](http://cssguidelin.es/) [resources](http://www.yellowshoe.com.au/standards/#css) [for](http://manuals.gravitydept.com/code/css) [inspiration](http://codeguide.co/#css))*
+### Principios CSS
+- **¿Cuáles son algunos de los principios generales que debe seguir tu equipo al escribir las CSS?** *(Por ejemplo, modularidad, evitar nombres largos para selectores, etc. Mira [estos](http://cssguidelin.es/) [recursos](http://www.yellowshoe.com.au/standards/#css) [para](http://manuals.gravitydept.com/code/css) [inspirarte](http://codeguide.co/#css))*
 
-### CSS Methodology
-- **Is your team using a CSS methodology** *(such as [SMACSS](https://smacss.com/), [BEM](https://en.bem.info/method/), or [OOCSS](http://oocss.org/))*? If yes, where is the documentation for that methodology?
-- **Are you deviating from the methodology in any way?** If so, can you highlight these conventions?
+### Metodología CSS
+- **¿Usa tu equipo una metodología CSS** *(como [SMACSS](https://smacss.com/), [BEM](https://en.bem.info/method/), u [OOCSS](http://oocss.org/))*? En caso afirmativo, ¿dónde está la documentación para esa metodología?
+- **¿Os desviáis de esa metodología de alguna manera?** Si es así, ¿puedes destacar estas convenciones?
 
-### CSS Tools
-- **Is the team using a preprocessor** *(such as [Sass](http://sass-lang.com/) or [Less](http://lesscss.org/))*?
-- **What are the guidelines for using that preprocessor** *(check out [Sass Guidelines](https://sass-guidelin.es/) for inspiration)*?
-- **Are you using a CSS base** *(such as [Normalize](https://necolas.github.io/normalize.css/) or a [reset](http://meyerweb.com/eric/tools/css/reset/))*?
-- **Are you using any CSS postprocessors** *(such as [Prefixfree](https://leaverou.github.io/prefixfree/) or [Autoprefixer](https://github.com/postcss/autoprefixer))*?
-- **Are there specific CSS techniques you're utilizing** *(such as [critical CSS](https://www.smashingmagazine.com/2015/08/understanding-critical-css/))*?
+### Herramientas CSS
+- **¿Usa tu equipo un preprocesador** *(como [Sass](http://sass-lang.com/) o [Less](http://lesscss.org/))*?
+- **¿Cuáles son las directrices para usar ese preprocesador** *(echa un vistazo a [Sass Guidelines](https://sass-guidelin.es/) para inspirarte)*?
+- **¿Usáis una base CSS** *(como [Normalize](https://necolas.github.io/normalize.css/) o un [reset](http://meyerweb.com/eric/tools/css/reset/))*?
+- **¿Usáis algún postprocesador CSS** *(como [Prefixfree](https://leaverou.github.io/prefixfree/) o [Autoprefixer](https://github.com/postcss/autoprefixer))*?
+- **¿Utilizáis alguna técnica específica para las CSS** *(como [critical CSS](https://www.smashingmagazine.com/2015/08/understanding-critical-css/))*?
 
-### CSS Frameworks
-- **Is the team using a framework** *(such as [Bootstrap](https://getbootstrap.com/) or [Foundation](http://foundation.zurb.com/))*? If yes, where is the documentation for that framework?
-- **Are you deviating from the framework in any way?** If so, can you highlight these conventions?
+### Frameworks CSS
+- **¿Está el equipo usando un framework** *(como [Bootstrap](https://getbootstrap.com/) o [Foundation](http://foundation.zurb.com/))*? En caso afirmativo, ¿dónde está la documentación de ese framework?
+- **¿Os desviáis del framework de alguna forma?** Si es así, ¿podéis destacar estas convenciones?
 
-### CSS Style
-- **Spaces or Tabs?**
-- **Spacing around rules?**
-- **[Grouping](https://smacss.com/book/formatting#grouping) properties?**
-- **What does CSS commenting look like?** 
+### Estilo CSS
+- **¿Espacios o Tabuladores?**
+- **¿Espaciando alrededor de reglas?**
+- **¿Propiedades de [Agrupación](https://smacss.com/book/formatting#grouping)?**
+- **¿Qué apariencia tienen los comentarios CSS?** 
 
 ---------------
 
 ## JavaScript
 
-### JavaScript Principles
-- **What are some general principles your team should follow when writing JavaScript?** *(See [these](https://github.com/airbnb/javascript) [resources](https://github.com/rwaldron/idiomatic.js) for [inspiration](https://github.com/styleguide/javascript))*
+### Principios JavaScript
+- **¿Cuáles son algunos de los principios generales que debe seguir tu equipo al escribir JavaScript?** *(Mira [estos](https://github.com/airbnb/javascript) [recursos](https://github.com/rwaldron/idiomatic.js) para [inspirarte](https://github.com/styleguide/javascript))*
 
 
-### JavaScript tools
-- **Are you using a JavaScript framework** *(such as [jQuery](https://jquery.com/), [Ember](http://emberjs.com/), [Angular](https://angularjs.org/), etc)*?
-- **Where is the documentation for those frameworks?**
-- **Are you using any polyfills or shims** *(such as [any of these](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills))*?
-- **What third-party scripts are dependencies for your project** *(such as scripts for form validation, graphs, animation, etc)*?
-- **Do you test your JavaScript?** If so, what tools do you use *(such as [Jasmine](https://jasmine.github.io/), [Karma](https://github.com/karma-runner/karma), [Selenium](http://docs.seleniumhq.org/), etc)*?
+### Herramientas JavaScript
+- **¿Usáis algún framework JavaScript** *(como [jQuery](https://jquery.com/), [Ember](http://emberjs.com/), [Angular](https://angularjs.org/), etc)*?
+- **¿Dónde está la documentación para esos frameworks?**
+- **¿Usáis algún tipo de polyfills o shims** *(como [cualquiera de estos](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills))*?
+- **¿De qué código de terceros depende el proyecto** *(como scripts para validar formularios, gráficos, animaciones, etc)*?
+- **¿Testeáis vuestro JavaScript?** Si es así, ¿qué herramientas usáis *(como [Jasmine](https://jasmine.github.io/), [Karma](https://github.com/karma-runner/karma), [Selenium](http://docs.seleniumhq.org/), etc)*?
 
-### JavaScript Style 
-*(See [these](https://github.com/airbnb/javascript) [resources](https://github.com/rwaldron/idiomatic.js) for [inspiration](https://github.com/styleguide/javascript))*
-- **Spaces or Tabs?**
-- **What does JS commenting look like?** 
-- **What patterns are you following?** *(See [these](https://addyosmani.com/resources/essentialjsdesignpatterns/book/) [resources](https://shichuan.github.io/javascript-patterns/))*
+### Estilo JavaScript
+*(Mira [estos](https://github.com/airbnb/javascript) [recursos](https://github.com/rwaldron/idiomatic.js) para [inspirarte](https://github.com/styleguide/javascript))*
+- **Espacios o Tabuladores?**
+- **¿Qué apariencia tienen los comentarios JS?** 
+- **¿Qué patrones seguís?** *(Mira [estos](https://addyosmani.com/resources/essentialjsdesignpatterns/book/) [recursos](https://shichuan.github.io/javascript-patterns/))*
 
 ---------------
 
 ## Media
-- **How are you handling icons** *(such as using SVG, icon fonts, etc)*?
-- **How are you handling responsive images** *(such as using `srcset` & `<picture />`)*?
-- **Are you using any [tools](https://addyosmani.com/blog/image-optimization-tools/) to optimize and serve images**?
+- **¿Cómo tratáis los iconos** *(tal como usando SVG, fuentes de iconos, etc)*?
+- **¿Cómo tratáis las imágenes responsivas** *(tal como usando `srcset` y `<picture />`)*?
+- **¿Usáis alguna [herramienta](https://addyosmani.com/blog/image-optimization-tools/) para optimizar y servir las imágenes**?
 
 ---------------
 
-## Fonts
-- **How do you load custom fonts?**
-- **Do you use any tools to help implement web fonts** *(such as [Font Squirrel](https://www.fontsquirrel.com/), etc)*?
-- **Do you use a service to manage and serve custom fonts** *(such as [Fonts.com](https://www.fonts.com/), [Typekit](https://typekit.com/), etc)*?
-
-
----------------
-
-## Performance
-- **Do you use performance budgets?** If so, what [metrics](https://timkadlec.com/2014/11/performance-budget-metrics/) are you using to determine budgets? Where are you keeping track of performance budgets?
-- **How are you measuring your project's speed** *(such as [Pingdom Speed Test](http://tools.pingdom.com/) or [Google PageSpeed](https://developers.google.com/speed/pagespeed/))*?
-- **What techniques are you using to decrease file size** *(such as [Gzip](https://css-tricks.com/snippets/htaccess/active-gzip-compression/), [Image Optimization](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization))*?
-- **What performance-related tools are you using in your workflow?** *(such as [WebPagetest](http://www.webpagetest.org/), [BigRig](https://aerotwist.com/blog/bigrig/) [Speedcurve](https://speedcurve.com/))*?
+## Fuentes
+- **¿Cómo cargáis las fuentes personalizadas?**
+- **¿Utilizáis alguna herramienta para ayudar a implementar las web fonts** *(como [Font Squirrel](https://www.fontsquirrel.com/), etc)*?
+- **¿Utilizáis algun servicio para gestionar y servir las fuentes personalizadas** *(como [Fonts.com](https://www.fonts.com/), [Typekit](https://typekit.com/), etc)*?
 
 
 ---------------
 
-## Accessibility
-- **Are you following the accessibility recommendations laid out in [this checklist](http://a11yproject.com/checklist.html)?**
-- **What accessibility-related [tools](http://a11yproject.com/resources.html) are you using in your workflow?**
+## Rendimiento
+- **¿Usáis estimaciones de rendimiento?** Si es así, qué [métricas](https://timkadlec.com/2014/11/performance-budget-metrics/) estáis usando para determinar las estimaciones? ¿Dónde estáis haciendo el seguimiento de las estimaciones de rendimiento?
+- **¿Cómo medís la velocidad de vuestro proyecto** *(como [Pingdom Speed Test](http://tools.pingdom.com/) o [Google PageSpeed](https://developers.google.com/speed/pagespeed/))*?
+- **¿Qué técnicas usáis para reducir el tamaño de los archivos** *(como [Gzip](https://css-tricks.com/snippets/htaccess/active-gzip-compression/), [Image Optimization](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization))*?
+- **¿Qué herramientas relacionadas con el rendimiento estáis usando en vuestro proceso de trabajo?** *(como [WebPagetest](http://www.webpagetest.org/), [BigRig](https://aerotwist.com/blog/bigrig/) [Speedcurve](https://speedcurve.com/))*?
+
 
 ---------------
 
-## Tooling
-- **Are you using a task runner** *(such as [Grunt](http://gruntjs.com/) or [Gulp](http://gulpjs.com/))*?
-- **Are you using a dependency manager** *(such as [Bower](http://bower.io/) or [Composer](https://getcomposer.org/))*?
-- **Are you using any scaffolding tools** *(such as [Yeoman](http://yeoman.io/))*?
-- **Are you using any tools to reinforce frontend style** *(such as [Editor Config](http://editorconfig.org/) or [linters](https://github.com/CSSLint/csslint))*?
-- **Are any other specific pieces of software that are needed to work on this project?**
+## Accesibilidad
+- **¿Seguís las recomendaciones de accesibilidad establecidas en [esta lista](http://a11yproject.com/checklist.html)?**
+- **¿Qué [herramientas](http://a11yproject.com/resources.html) relacionadas con la accesibilidad usáis en vuestro proceso de trabajo??**
 
 ---------------
 
-## Version control
-- **What version control system are you using for your frontend code** *(such as [Git](https://git-scm.com/) or [Subversion](https://subversion.apache.org/))*?
-- **Where is your version-controlled code hosted** *(such  as [Github](https://github.com/) or [Bitbucket](https://bitbucket.org/))*?
-- **Do you use a version control workflow** *(such as [gitflow](http://nvie.com/posts/a-successful-git-branching-model/), [centralized](https://www.atlassian.com/git/tutorials/comparing-workflows/centralized-workflow), [feature-branch](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow), etc)*?
-- **Who's responsible for managing and governing the version controlled code?**?
-- **Where are issues tracked?**
+## Herramientas
+- **¿Usáis algún automatizador de tareas** *(como [Grunt](http://gruntjs.com/) o [Gulp](http://gulpjs.com/))*?
+- **¿Usáis algún gestor de dependencias** *(como [Bower](http://bower.io/) o [Composer](https://getcomposer.org/))*?
+- **¿Usáis alguna herramienta de scaffolding** *(como [Yeoman](http://yeoman.io/))*?
+- **¿Usáis alguna herramienta para reforzar el estilo de la maquetación** *(como [Editor Config](http://editorconfig.org/) o [linters](https://github.com/CSSLint/csslint))*?
+- **¿Hay algún otro programa que sea necesario para trabajar en este proyecto?**
+
+---------------
+
+## Control de Versiones
+- **¿Qué sistema de control de versiones usáis para vuestro código frontend** *(como [Git](https://git-scm.com/) o [Subversion](https://subversion.apache.org/))*?
+- **¿Dónde está alojado vuestro código versionado** *(como [Github](https://github.com/) o [Bitbucket](https://bitbucket.org/))*?
+- **¿Usáis algún gestor de ramas y flujos de trabajo** *(como [gitflow](http://nvie.com/posts/a-successful-git-branching-model/), [centralized](https://www.atlassian.com/git/tutorials/comparing-workflows/centralized-workflow), [feature-branch](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow), etc)*?
+- **¿Quién es el responsable de administrar el repositorio de código?**?
+- **¿Dónde se hace el seguimiento de los problemas?**
 
 -----------
 
-## Support and Optimization
-It's important to recognize the difference between ["support" and "optimization"](http://bradfrost.com/blog/mobile/support-vs-optimization/). You should do your best to support as many environments as possible while simultaneously optimizing for the environments that make the most sense for your business and users. 
+## Soportar y Optimizar
+Es importante identificar la diferencia entre ["soportar" y "optimizar"](http://bradfrost.com/blog/mobile/support-vs-optimization/). Hay que hacer todo lo posible para soportar tantos entornos como sea posible mientras simultáneamente se optimizan los entornos que tienen más sentido para la empresa y los usuarios.
 
-- **What browsers are you *optimizing* for?** 
-- **What devices are you *optimizing* for?** 
-- **Are you using a [graded browser support](https://github.com/yui/yui3/wiki/Graded-Browser-Support) system?**
-- **Are there specific components that require [more specific grading](https://www.filamentgroup.com/lab/grade-the-components.html)?** 
-
------------
-
-## Localization
-- **Is your website served in different languages?** If so, what considerations do you need to address when localizing for other languages?
+- **¿Para qué navegadores se *optimiza*?**
+- **¿Para qué dispositivos se *optimiza*?** 
+- **¿Estáis usando algún sistema de [soporte de navegador graduado](https://github.com/yui/yui3/wiki/Graded-Browser-Support)?**
+- **¿Existen componentes específicos que requieran un [grado más específico](https://www.filamentgroup.com/lab/grade-the-components.html)?** 
 
 -----------
 
-## Deployment/Integration
-- **How is your front-end code integrated into a production environment?**
+## Localización
+- **¿Se muestra vuestro sitio web en diferentes idiomas?** Si es así, ¿qué consideraciones necesitáis tener en cuenta cuando localizáis para otros idiomas?
 
 -----------
 
-## Documentation
-- **Are you using a [pattern library tool](http://styleguides.io/tools.html) to document your front-end architecture?**
-- **Where does your documentation live?** What are the links to the documentation?
-- **Who's responsible for maintaining and governing the documentation?**
-- **What happens when the guidelines are updated?**
+## Despliegue/Integración
+- **¿Cómo se integra la maquetación dentro del entorno de producción?**
 
 -----------
 
-*Feel free to modify or extend (such as adding specific sections for performance, accessibility, etc) this document for your own organization's needs. For questions, comments, additions, and corrections, please open an issue on Github and/or reach out to [@brad_frost](https://twitter.com/brad_frost) on Twitter.*
+## Documentación
+- **¿Estáis utilizando alguna [herramienta de biblioteca de patrones](http://styleguides.io/tools.html) para documentar vuestra arquitectura de maquetación?**
+- **¿Dónde reside vuestra documentación?** ¿Cuáles son los enlaces hacia la documentación?
+- **¿Quién es el responsable de mantener y administrar la documentación?**
+- **¿Qué pasa cuando las directrices se actualizan?**
+
+-----------
+
+*Puedes modificar o extender libremente este documento (tal como añadir secciones específicas sobre rendimiento, accesibilidad, etc) según las necesidades de tu organización. Para preguntas, comentarios, adiciones, y correcciones, por favor abrir una incidencia en Github y/o contacta con [@brad_frost](https://twitter.com/brad_frost) en Twitter.*
+*Igualmente, en lo referente a esta traducción podéis contactar con [@xumet](https://twitter.com/xumet) en Twitter.*
